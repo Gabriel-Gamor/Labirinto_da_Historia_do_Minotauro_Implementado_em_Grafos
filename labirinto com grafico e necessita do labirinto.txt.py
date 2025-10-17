@@ -1,23 +1,5 @@
 #labirinto com grafico e necessita do labirinto.txt
 
-"""
-labirinto_gui_from_file.py
-
-Versão GUI que lê o labirinto a partir de um arquivo texto (labirinto.txt por padrão)
-Formato do arquivo (linhas não em branco / comentários iniciados com # são ignorados):
-n
-m
-u v w
-u v w
-...  (m linhas de arestas)
-entrada
-saida
-pos_minotauro
-p(G)
-tau(G)
-
-Ex.: veja arquivo de exemplo 'labirinto.txt' fornecido junto com este script.
-"""
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import heapq
@@ -541,3 +523,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
