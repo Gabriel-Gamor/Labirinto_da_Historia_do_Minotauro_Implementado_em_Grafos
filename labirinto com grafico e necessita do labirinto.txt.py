@@ -12,19 +12,6 @@ from typing import Dict, List, Tuple, Optional, Set
 # Leitura do arquivo
 # -------------------------
 def ler_labirinto_arquivo(caminho: str):
-    """
-    Lê o arquivo e retorna um dicionário de configuração:
-    {
-      "num_vertices": n,
-      "m": m,
-      "arestas": [(u,v,w), ...],
-      "vertice_entrada": entrada,
-      "vertice_saida": saida,
-      "pos_minotauro": pos_minotauro,
-      "parametro_percepcao": p_g,
-      "comida_inicial": tau
-    }
-    """
     linhas = []
     with open(caminho, "r", encoding="utf-8") as f:
         for raw in f:
@@ -523,4 +510,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
