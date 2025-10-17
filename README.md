@@ -6,6 +6,16 @@ O **Minotauro** se move dentro do mesmo labirinto e tenta capturar o prisioneiro
 
 ---
 
+## Funcionamento básico
+- O **prisioneiro** tenta chegar do vértice de entrada até o de saída antes da comida acabar.  
+- O **Minotauro** persegue o prisioneiro quando está dentro do alcance `p(G)`.  
+- O jogo termina quando:
+  - o prisioneiro escapa,  
+  - a comida acaba, ou  
+  - o Minotauro o alcança.
+
+---
+
 ## Estrutura
 O projeto possui quatro versões do código:
 
@@ -35,17 +45,12 @@ O projeto possui quatro versões do código:
 ---
 
 ## Como executar
-### Versão sem gráfico:
+
 ```bash
-python "labirinto sem grafico e necessita do labirinto.txt.py"
+python "aquivo.py"
 ```
 
-### Versão com gráfico:
-```bash
-python "labirinto com grafico e necessita do labirinto.txt.py"
-```
-
-Certifique-se de ter o arquivo `labirinto.txt` no mesmo diretório.
+Certifique-se que a verção com txt tenha um arquivo `labirinto.txt` no mesmo diretório.
 
 ---
 
@@ -90,12 +95,3 @@ Certifique-se de ter o arquivo `labirinto.txt` no mesmo diretório.
 120
 ```
 
----
-
-## Funcionamento básico
-- O **prisioneiro** tenta chegar do vértice de entrada até o de saída antes da comida acabar.  
-- O **Minotauro** persegue o prisioneiro quando está dentro do alcance `p(G)`.  
-- O jogo termina quando:
-  - o prisioneiro escapa,  
-  - a comida acaba, ou  
-  - o Minotauro o alcança.
