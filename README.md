@@ -1,1 +1,1 @@
-# Labirinto_da_Historia_do_Minotauro_Implementado_em_Grafos
+Labirinto da Historia do Minotauro Implementado em Grafos
