@@ -11,7 +11,7 @@ O projeto possui quatro versões do código:
 
 | Arquivo | Descrição |
 |----------|------------|
-| `labirinto com grafico e com labirinto implementado diretamente no codigo.py` | Versão com interface gráfica (Tkinter), labirinto definido no próprio código. |
+| `labirinto com grafico e com labirinto implementado diretamente no codigo.py` | Versão com interface gráfica, labirinto definido no próprio código. |
 | `labirinto sem grafico e com labirinto implementado diretamente no codigo.py` | Versão em modo texto, labirinto definido no próprio código. |
 | `labirinto com grafico e necessita do labirinto.txt.py` | Versão com interface gráfica, lê o labirinto de um arquivo `labirinto.txt`. |
 | `labirinto sem grafico e necessita do labirinto.txt.py` | Versão em modo texto, lê o labirinto de um arquivo `labirinto.txt`. |
